@@ -9,14 +9,14 @@
 	<body>
 		<div class="main">
 			<div class="hea-all">
-				<div class="hea-logo"></div>
-				<div class="hea-dd"></div>
-				<div class="hea-tit1"></div>
-				<div class="hea-tit2"></div>
-				<div class="hea-tit3"></div>
-				<div class="hea-tit4"></div>
+				<div id="logId" class="hea-logo"></div>
+				<div id="dianId" class="hea-dd"></div>
+				<div id="tit1Id" class="hea-tit1"></div>
+				<div id="tit2Id" class="hea-tit2"></div>
+				<div id="tit3Id" class="hea-tit3"></div>
+				<div id="tit4Id" class="hea-tit4"></div>
 			</div>
-			<div class="jj-all">
+			<div id="anim1" class="jj-all anim">
 				<div class="jj-one">
 					FaceBody颜身运动学院是<br>
 					FaceBody颜身运动旗下的运动职业培训基地<br>
@@ -43,7 +43,7 @@
 					深受市场认可，具有很强的实践性
 				</div>
 			</div>
-			<div class="bm-all">
+			<div id="anim2" class="bm-all anim">
 				<div class="bm-one">
 					<samp class="bm-btit">报名条件</samp>
 					<samp class="bm-bcon">
@@ -63,30 +63,154 @@
 				</div>
 				<img src="img/bm_r.jpg" class="bm-img" />
 			</div>
-			<div class="kc-all">
+			<div id="anim3" class="kc-all anim">
+				<div class="kc-class">Class</div>
+				<div class="kc-tit">课程介绍</div>
+				<div class="kc-renz">国职+FaceBody双证认证课程（一个月）</div>
+				<div class="kc-feiy">培训考试费 <samp>/8800</samp>元</div>
+				<div class="kc-con">
+					通过一个月系统的学习，让你掌握作为一名健身教练所具备的专业技能与素质<br>
+					并掌握流行工具用法，训练计划编写能力，小团体私教课程代课能力
+				</div>
 			</div>
-			<div class="zs-all">
-				<div class="zs-onel"></div>
-				<div class="zs-oner"></div>
+			<div id="anim4" class="zs-all anim">
+				<div class="zs-onel">
+					<img src="img/ks_1.png" class="zs-o-img" />
+					<div class="zs-o-tit">健身教练<br>国家职业资格认证培训</div>
+					<div class="zs-o-jg"><samp>120</samp>/学时</div>
+					<div class="zs-o-con">
+						<div class="zs-o-co">
+							健身教练概述<br>
+							人体运动的结构与功能基础<br>
+							健康与运动的合理营养<br>
+							健康体适能概论<br>
+							运动技术
+						</div>
+						<div class="zs-o-co">
+							运动计划<br>
+							运动损伤的预防与处理<br>
+							体重控制<br>
+							特殊人群的健身运动<br>
+							课程销售与客户服务
+						</div>
+					</div>
+				</div>
+				<div id="anim5" class="zs-oner anim">
+					<img src="img/ks_2.png" class="zs-o-img" />
+					<div class="zs-o-tit">FaceBody小团体私教课<br>教练资质认证培训</div>
+					<div class="zs-o-jg"><samp>80</samp>/学时</div>
+					<div class="zs-o-con">
+						<div class="zs-o-co">
+							功能性训练小道具的使用方法<br>
+							VIPR、战绳、BOSU、TRX技术与实践<br>
+							沟通与教学技巧<br>
+							功能性评估与生理评估<br>
+							FaceBody运动能力训练体系
+						</div>
+						<div class="zs-o-co">
+							FaceBody运动能力训练动作库及实践<br>
+							小团体私教课训练
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="xm-all">
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
-				<div class="xm-one"></div>
+			<div id="anim6" class="xm-all anim">
+				<div class="xm-one">
+					<div class="xm-o-i"></div>
+					<div class="xm-o-tt">美式综合体能训练专家</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: -160px top;"></div>
+					<div class="xm-o-tt">Movnat自然训练法</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: -320px top;"></div>
+					<div class="xm-o-tt">产后恢复技术与教学</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: left -120px;"></div>
+					<div class="xm-o-tt">精品私教课高级私教培训</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: -160px -120px;"></div>
+					<div class="xm-o-tt">小团体私教课专家培训</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: -320px -120px;"></div>
+					<div class="xm-o-tt">FMS功能性动作筛查技术</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: left -240px;"></div>
+					<div class="xm-o-tt">TRX技术与实操</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: -160px -240px;"></div>
+					<div class="xm-o-tt">ViPR技术与实操</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
+				<div class="xm-one">
+					<div class="xm-o-i" style="background-position: -320px -240px;"></div>
+					<div class="xm-o-tt">壶铃技术与实操</div>
+					<div class="xm-o-tc">
+						运动计划运动损伤的预防与处理<br>
+						体重控制特殊人群的健身运动课程销售与客户服务
+					</div>
+				</div>
 			</div>
-			<div class="fl-all">
+			<div id="anim7" class="fl-all anim">
 				<img src="img/fl_l.jpg" class="fl-img" />
-				<div class="fl-oner"></div>
+				<div class="fl-oner">
+					<samp>学员福利</samp><br>
+					早鸟价，前10名学费95折优惠。<br>
+					退伍军人和二级运动员以上还可享受再减200元学费。<br>
+					零基础包学会，免费重修。<br>
+					优秀学员直接聘用为FaceBody专职教练<br>
+					所有认证学员均可做为FaceBody兼职教练代课<br>
+					学院推荐就业
+				</div>
 			</div>
-			<div class="lx-all">
-				<div class="lx-one"></div>
-				<div class="lx-one"></div>
+			<div id="anim8" class="lx-all anim">
+				<div class="lx-one">
+					<img src="img/weixin.png" class="lx-o-er" />
+					<div class="lx-o-t1">官方微信 / <samp class="lx-o-t2">FaceBodyCollege</samp></div>
+					<div class="lx-o-t1">学院地址 / <samp class="lx-o-t3">上海市松江区茸梅路1177弄8号101室</samp></div>
+				</div>
+				<div class="lx-one">
+					<div class="lx-o-t1">电话报名 / <samp class="lx-o-t4"><br>021-37898830</samp></div>
+					<div class="lx-o-t1">报名邮件 / <samp class="lx-o-t2"><br>Neo.mei@facebodychina.com</samp></div>
+					<div class="lx-o-t1">报名微信 / <samp class="lx-o-t2">NeoMei</samp></div>
+				</div>
 			</div>
 		</div>
 	</body>
