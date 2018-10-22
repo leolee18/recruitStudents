@@ -10,7 +10,6 @@ $('#anim1').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 100});
 $('#anim2').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 200});
 $('#anim3').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 300});
 $('#anim4').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 400});
-$('#anim5').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 500});
 $('#anim6').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 600});
 $('#anim7').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 700});
 $('#anim8').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 800});
@@ -24,4 +23,13 @@ function scrollToEnd(){
     //$(document).scrollTop(h); 
     $('#anim8').velocity("scroll", { duration: 750, offset: 300 });
 }
+
+
+$("#anim4").hover(function(){
+  $('#anim41').velocity({backgroundColor: "#6638e8",color:"#c9caca"}, { duration: 600});
+  $('#anim42').velocity({backgroundColor: "#fff",color:"#6638E8"}, { duration: 600});
+},function(){
+	$('#anim42').velocity({backgroundColor: "#6638e8",color:"#c9caca"}, { duration: 600});
+  $('#anim41').velocity({backgroundColor: "#fff",color:"#6638E8"}, { duration: 600});
+});
 
