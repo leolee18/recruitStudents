@@ -2,14 +2,18 @@ html{height:100%;font-size:14px}
 body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-family:"微软雅黑",Arial,Helvetica,sans-serif}
 .main{position:relative;width:1210px;margin:0 auto;z-index:0;}
 
-.hea-all{position: relative;width:100%;height: 625px;background:#222c2f url('../img/hea_bg.jpg') top center no-repeat;overflow: hidden;}
+.hea-all{position: relative;width:100%;height: 612px;background:#222c2f url('../img/hea_bg.jpg') top center no-repeat;overflow: hidden;}
 .hea-logo{position: absolute;width: 115px;height: 67px;top: 37px;left: 62px;background:url('../img/head.png') left top no-repeat;}
 .hea-dd{position: absolute;width: 16px;height: 90px;top: 67px;right: 64px;background:url('../img/head.png') -300px top no-repeat;display:none;}
 .hea-tit1{position: absolute;width: 190px;height: 47px;top: 230px;left: 62px;background:url('../img/head.png') left -100px no-repeat;display:none;}
 .hea-tit2{position: absolute;width: 496px;height: 120px;top: 307px;left: 62px;background:url('../img/head.png') left -200px no-repeat;display:none;}
 .hea-tit3{position: absolute;width: 205px;height: 20px;top: 528px;left: 62px;background:url('../img/head.png') left -350px no-repeat;display:none;}
 .hea-tit4{position: absolute;width: 80px;height: 18px;top: 528px;right: 70px;background:url('../img/head.png') left -400px no-repeat;display:none;}
-
+.hea-dh{position: absolute;height: 25px;width: 100px;top:65px;right:40px;}
+.hea-a{position:absolute;font-size:14px;color:#fff;font-weight:bold;line-height:25px;text-decoration:none}
+.hea-a1{left: 0;}
+.hea-a2{right: 0;}
+.hea-lin{position:absolute;top:5px;left: 35px;height: 15px;width: 2px;background-color: #fff;}
 
 .jj-all{position: relative;width:100%;height:440px;padding:50px 60px;box-sizing:border-box;display:flex;font-size:14px;color:#727171;line-height:25px;overflow: hidden;}
 .jj-one{position: relative;width:50%;}

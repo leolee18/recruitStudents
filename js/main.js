@@ -1,6 +1,5 @@
 
 $('#logId').velocity('callout.pulse', { duration: 650});
-$('#dianId').velocity('transition.slideRightIn', { duration: 650,delay: 200 });
 
 $('#tit1Id').velocity('transition.slideDownBigIn', { duration: 1000,delay: 300 });
 $('#tit2Id').velocity('transition.slideLeftBigIn', { duration: 1500,delay: 300 });
