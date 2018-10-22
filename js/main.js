@@ -14,3 +14,14 @@ $('#anim5').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 500});
 $('#anim6').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 600});
 $('#anim7').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 700});
 $('#anim8').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 800});
+
+
+$(".xm-o-tc").click(function(){
+  scrollToEnd()
+});
+function scrollToEnd(){
+    //var h = $(document).height()-$(window).height();
+    //$(document).scrollTop(h); 
+    $('#anim8').velocity("scroll", { duration: 750, offset: 300 });
+}
+

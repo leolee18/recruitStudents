@@ -48,7 +48,7 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 .xm-one{position: relative;width:280px;height:210px;margin-bottom:60px;overflow: hidden;}
 .xm-o-i{position: relative;width: 160px;height: 110px;margin:0 auto;background:url('../img/ll_typ.png') left top no-repeat;}
 .xm-o-tt{position: relative;width:100%;margin-top:10px;display:inline-block;font-size:16px;font-weight:bold;text-align:center;color:#231815;line-height:30px;}
-.xm-o-tc{position: relative;width:100%;margin-top:10px;display:inline-block;font-size:12px;text-align:center;color:#727171;line-height:18px;}
+.xm-o-tc{position: relative;width:60px;margin:10px auto 0;font-size:12px;text-align:center;color:#727171;line-height:22px;border:1px solid #727171;cursor:pointer;}
 
 
 
