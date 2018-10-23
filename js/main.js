@@ -15,7 +15,7 @@ $('#anim7').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 700});
 $('#anim8').velocity({opacity: 1,top:'-=50px'}, { duration: 600,delay: 800});
 
 
-$(".xm-o-tc").click(function(){
+$(".xm-one").click(function(){
   scrollToEnd()
 });
 function scrollToEnd(){
@@ -26,10 +26,20 @@ function scrollToEnd(){
 
 
 $("#anim4").hover(function(){
-  $('#anim41').velocity({backgroundColor: "#6638e8",color:"#c9caca"}, { duration: 600});
-  $('#anim42').velocity({backgroundColor: "#fff",color:"#6638E8"}, { duration: 600});
+	console.log('移入');
 },function(){
 	$('#anim42').velocity({backgroundColor: "#6638e8",color:"#c9caca"}, { duration: 600});
   $('#anim41').velocity({backgroundColor: "#fff",color:"#6638E8"}, { duration: 600});
 });
-
+$("#anim41").hover(function(){
+  $('#anim41').velocity({backgroundColor: "#6638e8",color:"#c9caca"}, { duration: 600});
+  $('#anim42').velocity({backgroundColor: "#fff",color:"#6638E8"}, { duration: 600});
+},function(){
+	console.log('移出');
+});
+$("#anim42").hover(function(){
+  $('#anim42').velocity({backgroundColor: "#6638e8",color:"#c9caca"}, { duration: 600});
+  $('#anim41').velocity({backgroundColor: "#fff",color:"#6638E8"}, { duration: 600});
+},function(){
+	console.log('移出');
+});
